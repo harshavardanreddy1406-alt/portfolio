@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsha Vardan Reddy Mummadi — Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">harsha</a>
+    <button class="nav-toggle" aria-label="Toggle menu">menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">home</a></li>
+      <li><a href="projects.html">projects</a></li>
+      <li><a href="experience.html">experience</a></li>
+      <li><a href="tools.html">tools</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">harsha@portfolio: ~</span>
+          </div>
+          <div class="terminal-body">
+            <div class="line"><span class="prompt">$</span> <span class="cmd-text">whoami</span></div>
+            <h1 class="typed-name" data-text="Harsha Vardan Reddy Mummadi">Harsha Vardan Reddy Mummadi</h1>
+            <div class="role-tag">BTech CSE · 2nd Year</div>
+            <p class="hero-tagline">
+              Aspiring full-stack developer with a strong interest in generative AI and prompt engineering.
+              I enjoy building web applications and exploring new tools that turn ideas into working products.
+            </p>
+            <div class="btn-row">
+              <a href="projects.html" class="btn btn-primary">View Projects</a>
+              <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-frame"></div>
+        <img src="assets/profile.jpg" alt="Harsha Vardan Reddy Mummadi" class="hero-photo">
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" style="padding-top: 0;">
+      <div class="stat reveal">
+        <div class="stat-num" data-target="1">+0</div>
+        <div class="stat-label">Internship Completed</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num" data-target="4">+0</div>
+        <div class="stat-label">Projects In Progress</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-num" data-target="2">+0</div>
+        <div class="stat-label">Years Into BTech</div>
+      </div>
+    </section>
+
+    <!-- ABOUT / FOCUS -->
+    <section class="reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">01</span>
+        <h2 class="section-title">Currently Focused On</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-file">focus/fullstack.md</div>
+          <h3 class="card-title">Full Stack Development</h3>
+          <p class="card-desc">Building end-to-end web applications, from UI to backend logic and databases.</p>
+        </div>
+        <div class="card">
+          <div class="card-file">focus/ai.md</div>
+          <h3 class="card-title">Generative AI & Prompt Engineering</h3>
+          <p class="card-desc">Designing prompts and AI-powered features — chatbots, recommenders, and analyzers.</p>
+        </div>
+        <div class="card">
+          <div class="card-file">focus/availability.md</div>
+          <h3 class="card-title">Open to Opportunities</h3>
+          <p class="card-desc">Currently working on internships and projects, and open to new client work.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS PREVIEW -->
+    <section class="reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">02</span>
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-file">projects/chatbot.py</div>
+          <h3 class="card-title">AI Chatbot</h3>
+          <p class="card-desc">A conversational assistant built using generative AI and prompt engineering techniques.</p>
+          <div class="tag-row"><span class="tag">Python</span><span class="tag">Generative AI</span></div>
+        </div>
+        <div class="card">
+          <div class="card-file">projects/face_recognition.py</div>
+          <h3 class="card-title">Face Recognition System</h3>
+          <p class="card-desc">A system that detects and identifies faces in real time using computer vision.</p>
+          <div class="tag-row"><span class="tag">Python</span><span class="tag">OpenCV</span></div>
+        </div>
+      </div>
+      <div style="margin-top: 2rem; text-align: center;">
+        <a href="projects.html" class="btn btn-outline">See All Projects →</a>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="reveal" style="text-align: center;">
+      <div class="section-head" style="justify-content: center;">
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+      <p style="color: var(--text-dim); max-width: 500px; margin: 0 auto;">
+        Looking for collaborators, internship opportunities, or just want to talk tech? Reach out.
+      </p>
+      <div class="social-row" style="justify-content: center;">
+        <a href="https://www.linkedin.com/in/harshavardanreddy1406" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:harshavardanreddy1406@gmail.com">Email</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2026 Harsha Vardan Reddy Mummadi — Built with HTML, CSS &amp; JS
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
