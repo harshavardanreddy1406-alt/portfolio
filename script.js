@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         i++;
         setTimeout(type, 70);
       } else {
-        typed.classList.add('cursor-blink');
+        typed.classList.add('cursor-bold');
       }
     };
     type();
